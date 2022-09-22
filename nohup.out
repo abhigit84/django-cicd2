@@ -1,0 +1,58 @@
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified some issues:
+
+WARNINGS:
+todos.Todo: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the TodosConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+
+System check identified 1 issue (0 silenced).
+September 20, 2022 - 17:06:32
+Django version 4.1.1, using settings 'todoApp.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified some issues:
+
+WARNINGS:
+todos.Todo: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the TodosConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+
+System check identified 1 issue (0 silenced).
+September 20, 2022 - 17:16:57
+Django version 4.1.1, using settings 'todoApp.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Error: That port is already in use.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified some issues:
+
+WARNINGS:
+todos.Todo: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the TodosConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+
+System check identified 1 issue (0 silenced).
+September 20, 2022 - 17:17:51
+Django version 4.1.1, using settings 'todoApp.settings'
+Starting development server at http://0.0.0.0:8001/
+Quit the server with CONTROL-C.
+[20/Sep/2022 17:17:54] "GET / HTTP/1.1" 302 0
+[20/Sep/2022 17:17:55] "GET /todos HTTP/1.1" 301 0
+[20/Sep/2022 17:17:55] "GET /todos/ HTTP/1.1" 200 3506
+[20/Sep/2022 17:17:58] "GET /todos/ HTTP/1.1" 200 3506
+[20/Sep/2022 17:17:59] "GET /todos/ HTTP/1.1" 200 3506
+[20/Sep/2022 17:18:00] "GET /todos/ HTTP/1.1" 200 3506
+[20/Sep/2022 17:18:01] "GET /todos/ HTTP/1.1" 200 3506
+[20/Sep/2022 17:18:04] "GET / HTTP/1.1" 302 0
+[20/Sep/2022 17:18:05] "GET /todos/ HTTP/1.1" 200 3506
+[20/Sep/2022 17:18:37] "GET /todos/ HTTP/1.1" 200 3506
+[20/Sep/2022 17:18:38] "GET /todos/ HTTP/1.1" 200 3506
+[20/Sep/2022 17:18:39] "GET /todos/ HTTP/1.1" 200 3506
+[20/Sep/2022 17:18:49] "GET /todos/ HTTP/1.1" 200 3506
+[20/Sep/2022 17:18:49] "GET /todos/ HTTP/1.1" 200 3506
+[20/Sep/2022 17:18:50] "GET /todos/ HTTP/1.1" 200 3506
